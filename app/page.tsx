@@ -359,7 +359,7 @@ export default function Home() {
         {/* Right: Copy */}
         <div className="lf-hero-copy">
           <p className="lf-hero-eyebrow">Denver, CO · Women's Barbell Studio</p>
-          <h1 className="lf-hero-h1 lf-head">
+          <h1 data-cg-el="hero_headline_1" className="lf-hero-h1 lf-head">
             BUILT<br />FOR<br /><em>STRONG</em><br />WOMEN
           </h1>
           <p className="lf-hero-sub">{siteData.hero.subtitle}</p>
