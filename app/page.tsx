@@ -358,14 +358,14 @@ export default function Home() {
 
         {/* Right: Copy */}
         <div className="lf-hero-copy">
-          <p className="lf-hero-eyebrow">Denver, CO · Women's Barbell Studio</p>
+          <p data-cg-el="hero_eyebrow" className="lf-hero-eyebrow">Denver, CO · Women's Barbell Studio</p>
           <h1 data-cg-el="hero_headline_1" className="lf-hero-h1 lf-head">
             BUILT<br />FOR<br /><em>STRONG</em><br />WOMEN
           </h1>
-          <p className="lf-hero-sub">{siteData.hero.subtitle}</p>
+          <p data-cg-el="hero_subtitle" className="lf-hero-sub">{siteData.hero.subtitle}</p>
           <div className="lf-hero-actions">
-            <a href="#trial" className="lf-btn-primary">Start Free Trial</a>
-            <a href="#classes" className="lf-btn-outline">View Classes</a>
+            <a data-cg-el="hero_cta_primary" href="#trial" className="lf-btn-primary">Start Free Trial</a>
+            <a data-cg-el="hero_cta_secondary" href="#classes" className="lf-btn-outline">View Classes</a>
           </div>
           <div className="lf-hero-stats">
             {siteData.stats.map((s, i) => (
